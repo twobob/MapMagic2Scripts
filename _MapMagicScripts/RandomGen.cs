@@ -24,11 +24,7 @@ using System;
             return inst.Next() % 2 == 0;
         }
 
-    public static int NextValidRandomPatchAmountFromTGOSRange()
-    {
-        return
-RandomGen.Next(TownGlobalObjectService.PatchCap, TownGlobalObjectService.PatchFloor);
-    }
+
 
         public static int Next(int Ceil = int.MaxValue, int Floor = int.MinValue)
         {
