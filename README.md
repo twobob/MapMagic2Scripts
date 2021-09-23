@@ -21,6 +21,8 @@ AceDisplay - simple - tiny - fast display that also clamp01's
 
 Invert - invert the data so it is effectively outlined (see picture)
 
+MaskToZero - Just like the regular mask except it provides an internal null input that reduces the complexity of operation
+
 ##  **_Controls_**  **SPLINE** (Needs Den.Tools.Spline addon)
 
 Subdivide - Utility control to increase segment count in input splines by multiplier to output
