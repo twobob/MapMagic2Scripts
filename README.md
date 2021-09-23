@@ -3,7 +3,7 @@ Useful (mainly generator) scripts for MapMagic version > 2.1.8,
 >   Requires the paid-for app 'MapMagic2' ; Also the 'Spline', and 'Object', addons where noted. 
 
 
-**STATE OF DEVELOPMENT: Utterly alpha. These are barely tested, never mind battle hardened. Pulls welcomed.**
+**STATE OF DEVELOPMENT: Utterly alpha. These are barely tested, never mind battle-hardened. Pulls welcomed.**
 
 
 ## **_Output_**
@@ -47,5 +47,7 @@ LerpToGround - helper to jump objects to ground
 
 LerpToGroundAfterDelay - same as above but with delay
 
-# SUPPORT THIS DEVELOPER: https://paypal.me/Geekwife     
-##  A kind soul has agreed to collect any money from other nice people that want to support more scripts like these and time spent making these solid / better
+---
+
+## SUPPORT THIS DEVELOPER: https://paypal.me/Geekwife     
+###  A kind soul has agreed to collect any money from other nice people that want to support more scripts like these and time spent making these solid / better
