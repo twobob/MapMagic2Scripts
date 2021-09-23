@@ -1,4 +1,4 @@
-**MapMagic2Scripts**
+# **MapMagic2Scripts**
 Useful (mainly generator) scripts for MapMagic version > 2.1.8, Requires the paid for app Map Magic; Also the Spline, and Object, addons where noted. 
 
 
@@ -13,14 +13,13 @@ _The Holes output eliding huge sections of terrain_
 ![image](https://user-images.githubusercontent.com/915232/134504021-4a905a33-db3c-458e-b0da-ee493cf748f2.png)
 
 
-**_Control_**
-**MAP**
+##  **_Controls_**  **MAP**
 
 AceDisplay - simple - tiny - fast display that also clamp01's
 
 Invert - invert the data so it is effectively outlined (see picture)
 
-**SPLINE** (Needs Den.Tools.Spline addon)
+##  **_Controls_**  **SPLINE** (Needs Den.Tools.Spline addon)
 
 Subdivide - Utility control to increase segment count in input splines by multiplier to output
 
@@ -36,7 +35,7 @@ _A few simple straight lines being turned into complex system with these control
 
 
 
-**_Helpful Other Monobehaviours and classes_**
+##  **_Helpful Other Monobehaviours and classes_**
 
 **RandomGen - A required helper script for the controls** that creates a thread safe random using cryptography  
 
@@ -44,4 +43,5 @@ LerpToGround - helper to jump objects to ground
 
 LerpToGroundAfterDelay - same as above but with delay
 
-SUPPORT THIS DEVELOPER: https://paypal.me/Geekwife    - A kind soul has agreed to collect any money from other nice people that want to support more scripts like these and time spent making these solid / better
+# SUPPORT THIS DEVELOPER: https://paypal.me/Geekwife     
+##  A kind soul has agreed to collect any money from other nice people that want to support more scripts like these and time spent making these solid / better
