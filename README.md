@@ -1,12 +1,14 @@
 # **MapMagic2Scripts**
-Useful (mainly generator) scripts for MapMagic version > 2.1.8, Requires the paid for app Map Magic; Also the Spline, and Object, addons where noted. 
+Useful (mainly generator) scripts for MapMagic version > 2.1.8, 
+>   Requires the paid-for app 'MapMagic2' ; Also the 'Spline', and 'Object', addons where noted. 
 
 
 **STATE OF DEVELOPMENT: Utterly alpha. These are barely tested, never mind battle hardened. Pulls welcomed.**
 
 
-**Holes _Output_**
+## **_Output_**
 
+### Hole
 Provides a way to directly pass a regular map output to be parsed like :  **HOLE** _0_ (BLACK) < _0.5f_ > (WHITE) _1_ **TERRAIN** 
 
 _The Holes output eliding huge sections of terrain_
