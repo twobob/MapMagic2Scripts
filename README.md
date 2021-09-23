@@ -44,3 +44,4 @@ LerpToGround - helper to jump objects to ground
 
 LerpToGroundAfterDelay - same as above but with delay
 
+SUPPORT THIS DEVELOPER: https://paypal.me/Geekwife    - A kind soul has agreed to collect any money from other nice people that want to support more scripts like these and time spent making these solid / better
