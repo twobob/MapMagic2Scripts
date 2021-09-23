@@ -23,7 +23,7 @@ iconName = "GeneratorIcons/Constant",
 colorType = typeof(SplineSys),
 disengageable = true,
 helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/constant")]
-    public class BendyControlMARK1 : Generator, IInlet<SplineSys>, IOutlet<SplineSys>
+    public class BendyV1 : Generator, IInlet<SplineSys>, IOutlet<SplineSys>
     {
         [Val("Input", "Inlet")] public readonly Inlet<SplineSys> input = new Inlet<SplineSys>();
 
@@ -65,7 +65,7 @@ helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/consta
 
 #if UNITY_EDITOR
         [UnityEditor.InitializeOnLoadMethod]
-        static void EnlistInMenu() => MapMagic.Nodes.GUI.CreateRightClick.generatorTypes.Add(typeof(BendyControlMARK1));
+        static void EnlistInMenu() => MapMagic.Nodes.GUI.CreateRightClick.generatorTypes.Add(typeof(BendyV1));
 #endif 
 
         public override void Generate(TileData data, StopToken stop)
@@ -91,7 +91,7 @@ helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/consta
             var tileSize = new Vector3(1000, 500, 1000);
 
             // now magically create perfect size slices for this tile.  Thanks Denis.
-           // dst.Clamp(tileLocation, tileSize);
+          
 
 
             //if (dst.NodesCount == 0)
@@ -111,7 +111,7 @@ helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/consta
             /// if (data.isDraft) return;
             bend.Subdivide(divisions);
 
-
+            bend.Clamp(tileLocation, tileSize);
 
             //foreach (var item in dst.lines)
             //{
@@ -149,17 +149,17 @@ helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/consta
             //    dst.Relax(blur, ri);
             //}
 
-         //   SplineSys bend = new SplineSys(dst);
+            //   SplineSys bend = new SplineSys(dst);
 
 
             // now magically create perfect size slices for this tile.  Thanks Denis.
-          //  bend.Clamp(tileLocation, tileSize);
+            //  bend.Clamp(tileLocation, tileSize);
 
             // bend nodes
 
-               
 
-                for (int i = 0; i < bend.lines.Length; i++)
+
+            for (int i = 0; i < bend.lines.Length; i++)
                 {
                     for (int j = 0; j < bend.lines[i].segments.Length; j++)
                     {
@@ -240,8 +240,9 @@ helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/consta
                             bend.lines[i].segments[j].end = end;
                         }
                     }
+                
                 }
-          
+            bend.Update();
             //if (useNoise)
             //{
             //    for (int i = 0; i < dst.lines.Length; i++)
@@ -311,7 +312,7 @@ helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/consta
 
 
             // now magically create perfect size slices for this tile.  Thanks Denis.
-           // bend.Clamp(tileLocation, tileSize);
+            bend.Clamp(tileLocation, tileSize);
 
             data.StoreProduct(this, bend);
             //  }
