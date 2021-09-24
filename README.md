@@ -40,6 +40,9 @@ _A few simple straight lines being turned into complex system with these control
 ![image](https://user-images.githubusercontent.com/915232/134523551-e3e6cd56-2761-4860-9f72-9a6cc123b665.png)
 
 
+##  **_Controls_**  **OBJECT**
+
+NodeToObject - Converts every node on a spline to an object. No, it does not respect the orientation of the orignal spline.
 
 ##  **_Helpful Other Monobehaviours and classes_**
 
