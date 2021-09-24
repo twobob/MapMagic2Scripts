@@ -1,17 +1,7 @@
 ﻿using UnityEngine;
 using System;
-using System.Collections;
-//using System.Collections.Generic;
-
-//using Den.Tools;    
-using Den.Tools.GUI;
 using Den.Tools.Matrices;
-//using MapMagic.Core;
 using MapMagic.Products;
-//using MapMagic.Terrains;
-using System.Linq;
-
-using UnityEngine.Profiling;
 using Den.Tools;
 
 namespace MapMagic.Nodes.MatrixGenerators
@@ -35,7 +25,6 @@ namespace MapMagic.Nodes.MatrixGenerators
         [UnityEditor.InitializeOnLoadMethod]
         static void EnlistInMenu() => MapMagic.Nodes.GUI.CreateRightClick.generatorTypes.Add(typeof(HoleOutMark1));
 #endif
-
 
         public override void Generate(TileData data, StopToken stop)
         {
@@ -66,7 +55,6 @@ namespace MapMagic.Nodes.MatrixGenerators
         public static FinalizeAction finalizeAction = Finalize; //class identified for FinalizeData
         public static void Finalize(TileData data, StopToken stop)
         {
-
            
             if (stop != null && stop.stop) return;
            
