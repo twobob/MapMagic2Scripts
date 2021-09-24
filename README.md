@@ -28,12 +28,11 @@ MaskToZero - Just like the regular mask except it provides an internal null inpu
 
 ##  **_Controls_**  **SPLINE** (Needs Den.Tools.Spline addon)
 
-Subdivide - Utility control to increase segment count in input splines by multiplier to output
+Subdivide - Utility control to increase segment count in input splines by factor to output
 
 WigglerMini - adds a set of random offsets into an input set of splines 
 
-Bendy - (created To follow Wiggler) - or other inputted splines. Accentuates EXISTING bezier, 
-however if there is no Tangent data to accentuate it won't add Tangent itself. in addition to this tangent pass "Bendy" also adds "Wiggly" straight details pass.
+Bendy - (created To follow Wiggler) - or other inputted splines. Accentuates Tamngent. Increases segment count by factor.
 
 Clamp - Utility to ensure splines are indeed clamped to the Active or Full Area - or not at all.
 
