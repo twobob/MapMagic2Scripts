@@ -42,7 +42,7 @@ _A few simple straight lines being turned into complex system with these control
 
 ##  **_Controls_**  **OBJECT**
 
-NodeToObject - Converts every node on a spline to an object. No, it does not respect the orientation of the orignal spline.
+NodeToObject - Converts every node on a spline to an object. No, it does not respect the orientation of the original spline.
 
 ##  **_Helpful Other Monobehaviours and classes_**
 
