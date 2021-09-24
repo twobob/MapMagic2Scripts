@@ -9,7 +9,10 @@ Useful (mainly generator) scripts for MapMagic version > 2.1.8,
 ## **_Output_**
 
 ### Hole
-Provides a way to directly pass a regular map output to be parsed like :  **HOLE** _0_ (BLACK) < _0.5f_ > (WHITE) _1_ **TERRAIN** 
+Provides a way to directly pass a regular map output to be parsed like :  **HOLE** _1_ (White) > (BLACK) _0_ **TERRAIN** 
+
+SO THAT MEANS: any value > `float.Epsilon` results in a hole.  Multiple instances of the output are now supported.
+
 
 _The Holes output eliding huge sections of terrain_
 ![image](https://user-images.githubusercontent.com/915232/134504021-4a905a33-db3c-458e-b0da-ee493cf748f2.png)
