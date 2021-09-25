@@ -4,9 +4,13 @@
   "version": "0.1.0",
   "unity": "2019.2",
   "description": "Additional controls for working with MapMagic2",
-  "keywords": [ "MapMagic2", "editor", "Unity3D", "twobob" ],
   "category": "scripts",
   "dependencies": {},
   "samples": [
-  ]
+  ],
+  "repository": {
+   "type": "git",
+   "url": "https://github.com/stasiandr/generator-open-unity-package.git"
+ },
+ 
 }
