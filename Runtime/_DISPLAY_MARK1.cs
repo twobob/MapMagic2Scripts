@@ -2,7 +2,7 @@
 using Den.Tools.Matrices;
 using MapMagic.Products;
 
-namespace MapMagic.Nodes.MatrixGenerators
+namespace Twobob.Mm2
 {
   
 

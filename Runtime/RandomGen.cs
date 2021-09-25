@@ -2,7 +2,8 @@ using UnityEngine;
 using System.Security.Cryptography;
 using System;
 
-
+namespace Twobob.Mm2
+{
     public static class RandomGen
     {
         private static RNGCryptoServiceProvider _global =
@@ -40,5 +41,5 @@ using System;
         }
     }
 
-
+}
 

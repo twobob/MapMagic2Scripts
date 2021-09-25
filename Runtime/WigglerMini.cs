@@ -12,7 +12,7 @@ using MapMagic.Core;
 using MapMagic.Products;
 using System.Linq;
 
-namespace MapMagic.Nodes.SplinesGenerators
+namespace Twobob.Mm2
 {
 
     [System.Serializable]

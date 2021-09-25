@@ -3,7 +3,7 @@ using Den.Tools.Splines;
 using MapMagic.Products;
 using System.Linq;
 
-namespace MapMagic.Nodes.SplinesGenerators
+namespace Twobob.Mm2
 {
     [System.Serializable]
     [GeneratorMenu(menu = "Spline/Modifiers", name = "NodeToObject", iconName = "GeneratorIcons/Constant", disengageable = true,

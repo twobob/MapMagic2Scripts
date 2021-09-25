@@ -11,7 +11,7 @@ using Den.Tools.GUI;
 using MapMagic.Core;
 using MapMagic.Products;
 
-namespace MapMagic.Nodes.SplinesGenerators
+namespace Twobob.Mm2
 {
     [System.Serializable]
     [GeneratorMenu(
