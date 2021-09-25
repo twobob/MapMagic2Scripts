@@ -7,10 +7,6 @@
   "category": "scripts",
   "dependencies": {},
   "samples": [
-  ],
-  "repository": {
-   "type": "git",
-   "url": "https://github.com/stasiandr/generator-open-unity-package.git"
- },
- 
+  ]
+
 }
