@@ -54,5 +54,10 @@ LerpToGroundAfterDelay - same as above but with delay
 
 ---
 
+CAN I INCLUDE THIS AS A PACKAGE?  No, despite it being ready to be delivered as one, Unity has not yet implemented the ability to reference an Asset Store package via UPM packages.
+When that changes? We are ready.
+
+---
+
 ## SUPPORT THIS DEVELOPER: https://paypal.me/Geekwife     
 ###  A kind soul has agreed to collect any money from other nice people that want to support more scripts like these and time spent making these solid / better
