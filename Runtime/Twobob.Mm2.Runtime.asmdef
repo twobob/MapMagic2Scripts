@@ -1,17 +1,19 @@
 {
     "name": "Twobob.Mm2",
     "references": [
-
+        "MapMagic",
+        "Den.Tools",
+        "MapMagic.Editor"
     ],
     "includePlatforms": [],
-    "excludePlatforms": [],
+    "excludePlatforms": [
+        "Editor"
+    ],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [
-        
-    ],
+    "versionDefines": [],
     "noEngineReferences": false
 }
