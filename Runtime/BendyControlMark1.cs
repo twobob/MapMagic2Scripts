@@ -12,7 +12,7 @@ using MapMagic.Core;
 using MapMagic.Products;
 using System.Linq;
 
-namespace namespace Twobob.Mm2
+namespace Twobob.Mm2
 {
 
     [System.Serializable]
