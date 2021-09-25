@@ -2,6 +2,7 @@
 using Den.Tools.Splines;
 using MapMagic.Products;
 using System.Linq;
+using MapMagic.Nodes;
 
 namespace Twobob.Mm2
 {

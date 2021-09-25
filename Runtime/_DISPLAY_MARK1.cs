@@ -1,6 +1,7 @@
 ﻿using Den.Tools.GUI;
 using Den.Tools.Matrices;
 using MapMagic.Products;
+using MapMagic.Nodes;
 
 namespace Twobob.Mm2
 {

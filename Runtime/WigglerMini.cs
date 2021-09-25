@@ -11,6 +11,7 @@ using Den.Tools.GUI;
 using MapMagic.Core;
 using MapMagic.Products;
 using System.Linq;
+using MapMagic.Nodes;
 
 namespace Twobob.Mm2
 {
