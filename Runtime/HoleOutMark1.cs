@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 using System;
 using Den.Tools.Matrices;
 using MapMagic.Products;
@@ -17,6 +18,9 @@ namespace Twobob.Mm2
         helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/output_generators/Height")]
     public class HoleOutMark1 : OutputGenerator, IInlet<MatrixWorld>
     {
+
+      
+
         public OutputLevel outputLevel = OutputLevel.Draft | OutputLevel.Main;
         public override OutputLevel OutputLevel { get { return outputLevel; } }
 

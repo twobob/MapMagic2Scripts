@@ -8,14 +8,14 @@ using Den.Tools;
 using Den.Tools.Splines;
 using Den.Tools.Matrices;
 using Den.Tools.GUI;
-using MapMagic.Core;
+//using MapMagic.Gui;
+using MapMagic.Nodes;
 using MapMagic.Products;
 using System.Linq;
-using MapMagic.Nodes;
 
 namespace Twobob.Mm2
 {
-
+    
     [System.Serializable]
     [GeneratorMenu(
 menu = "Spline/Modifiers",
@@ -29,6 +29,8 @@ helpLink = "https://gitlab.com/denispahunov/mapmagic/wikis/map_generators/consta
         [Val("Input", "Inlet")] public readonly Inlet<SplineSys> input = new Inlet<SplineSys>();
 
         [Val("Output", "Outlet")] public readonly Outlet<SplineSys> output = new Outlet<SplineSys>();
+
+       
 
         /// <summary>
         /// Make the random "repeatable"
