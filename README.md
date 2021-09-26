@@ -15,7 +15,7 @@ SO THAT MEANS: any value > `float.Epsilon` results in a hole.  Multiple instance
 
 
 _The Holes output eliding sections of terrain_
-![image](https://user-images.githubusercontent.com/915232/134827788-a25b630c-9921-47b1-8ccb-5dfd17766ffc.png)
+![image](https://user-images.githubusercontent.com/915232/134828043-fe01acc8-9bba-40cd-90c9-622c237914ae.png)
 
 _Any non-black value becomes a hole_
 ![image](https://user-images.githubusercontent.com/915232/134827924-41131717-8b75-4d0a-8e56-e3c6b9785f32.png)
