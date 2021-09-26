@@ -32,7 +32,7 @@ Subdivide - Utility control to increase segment count in input splines by factor
 
 WigglerMini - adds a set of random offsets into an input set of splines 
 
-Bendy - (created To follow Wiggler) - or other inputted splines. Accentuates Tamngent. Increases segment count by factor.
+Bendy - (created To follow Wiggler) - or other inputted splines. Accentuates Tangent. Increases segment count by factor.
 
 Clamp - Utility to ensure splines are indeed clamped to the Active or Full Area - or not at all.
 
