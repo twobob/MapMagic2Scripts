@@ -14,8 +14,8 @@ Provides a way to directly pass a regular map output to be parsed like :  **HOLE
 SO THAT MEANS: any value > `float.Epsilon` results in a hole.  Multiple instances of the output are now supported.
 
 
-_The Holes output eliding huge sections of terrain_
-![image](https://user-images.githubusercontent.com/915232/134504021-4a905a33-db3c-458e-b0da-ee493cf748f2.png)
+_The Holes output eliding sections of terrain_
+![image](https://user-images.githubusercontent.com/915232/134827788-a25b630c-9921-47b1-8ccb-5dfd17766ffc.png)
 
 
 ##  **_Controls_**  **MAP**
